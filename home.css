@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+
+
 *{
     box-sizing:border-box;
     margin:0;
     padding: 0;
     font-family: poppins;
+    
 }
 
 body{
     max-width:2560px;
+ 
     margin:auto;
 }
 nav{
@@ -196,10 +202,30 @@ footer{
     text-align:left;
     padding:40px 60px;
     gap:10px;
+    font-family: monospace;
+    
 }
+
 footer div>p{
     font-size:1.3rem;
     margin:10px 0;
+    font-family: Lola;
+}
+
+footer div>li{
+    font-size:0.9rem;
+    margin:10px 0;
+    font-family: Lora;
+    text-decoration: none;
+}
+li{
+    text-decoration:none;
+}
+
+footer div{
+    font-size:0.9rem;
+    margin:10px 0;
+    font-family: Lora;
 }
 
 svg{
@@ -215,6 +241,7 @@ svg{
         display: flex;
         flex-direction: row;
         padding:10px;
+        
         
     }
 
@@ -399,6 +426,7 @@ footer div>p{
         display: flex;
         flex-direction: row;
         padding:10px;
+        justify-content: left;
         
     }
 
@@ -407,10 +435,6 @@ footer div>p{
         margin:10px 0;
     }
 
-    .donation li{
-        text-decoration:none;
-        
-    }
 
 
 
