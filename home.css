@@ -5,7 +5,10 @@
     font-family: poppins;
 }
 
-
+body{
+    max-width:2560px;
+    margin:auto;
+}
 nav{
      background-color: white;
      padding:10px;
@@ -68,10 +71,11 @@ h3{
     /* background-color: black; */
     color:white;
     flex-wrap: wrap;
-    gap:10px;
     justify-content: center;
     margin-top:20px;
     padding:10px 0;
+    align-self: normal;
+    gap:20px;
 }
 
 
@@ -142,16 +146,18 @@ section img {
 }
 .a{
     display:flex;
-    justify-content:space-between;
-    background-color: rgb(0, 0, 0);
+    justify-content:center;
+    /* background-color: rgb(0, 0, 0); */
     flex-wrap: wrap;
+    align-self:normal;
     
 }
 .b{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-wrap: wrap;
-    background-color: rgb(5, 2, 0);
+    /* background-color: rgb(5, 2, 0); */
+    align-self:normal;
 }
 
 
@@ -160,7 +166,6 @@ section img {
     background-repeat: no-repeat;
     background-size:100% 100%;
     width:600px;
-    height:350px;
     
 }
 
@@ -169,12 +174,12 @@ section img {
     background:url('images/group-happy-african-volunteers-hold-blank-board-park-africa-volunteering-charity-people-ecology-concept_627829-326.jpg');
     background-repeat: no-repeat;
     width:600px;
-     height:350px;
 }
 .mission-box{
     height:300px;
     padding:30px;
     width:600px;
+    background-color: rgb(5, 2, 0);
 
 }
 .mission-box p{
@@ -210,8 +215,17 @@ svg{
     footer{
         display: flex;
         flex-direction: row;
+        padding:10px;
         
     }
+
+footer div>p{
+    font-size:1.3rem;
+    margin:10px 0;
+}
+
+
+
     .section2{
     background-color: aqua;
     padding:10px 10px;
@@ -248,12 +262,42 @@ svg{
     }
 
 
-.callout p{
-  color:black;
-  font-size:0.8rem;
-   
+    .callout p{
+    color:black;
+    font-size:0.8rem;
+    
 
+    }
+
+    .mission-box{
+        height:300px;
+        padding:10px;
+        width:600px;
+
+    }
+    .mission-box p{
+        font-size: 1.5rem;
+        padding:5px 0;
+    }
+    .mission-box >div{
+        font-size:0.8rem;
+    }
+
+
+
+.s2-image{
+   height:300px;
+    
 }
+
+
+.s2-image2{
+
+    height:300px;
+}
+
+
+
 
     /* .a{
     display:grid;
