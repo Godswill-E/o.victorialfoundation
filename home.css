@@ -94,7 +94,6 @@ h3{
 
    line-height: 30px;
    font-style: italic;
-    
 
 }
 
@@ -211,7 +210,101 @@ svg{
 
 /*** ******* media*/
 
-@media (max-width:320px){
+@media (max-width:1024px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding:10px;
+        
+    }
+
+    footer div>p{
+        font-size:1.3rem;
+        margin:10px 0;
+    }
+
+
+
+    .section2{
+    background-color: aqua;
+    padding:10px 10px;
+    color:white;
+
+    }
+    .section1 div p:first-child{
+    
+    font-size:1.6rem;
+    margin:10px 10px;
+    border:3px solid red;
+    padding:10px;
+    
+
+    }
+    .section1 div p:last-child{
+    
+    margin:10px 10px;
+    line-height: 30px;
+    font-style: italic;
+        
+    }
+
+
+.section2{
+    background-color: aqua;
+    padding:10px 20px;
+    color:white;
+
+}
+
+    .callout{
+        font-size:1.5rem;
+        width:400px;
+        padding:10px 0;
+    
+        /* background-color: black; */
+
+    }
+
+
+    .callout p{
+    color:black;
+    font-size:0.8rem;
+    
+
+    }
+
+    .mission-box{
+        height:300px;
+        padding:20px;
+        width:600px;
+
+    }
+    .mission-box p{
+        font-size: 2.2rem;
+        padding:5px 0;
+    }
+    .mission-box >div{
+        font-size:1.0rem;
+    }
+
+
+
+    .s2-image{
+        width:600px;
+        height:300px;
+    }
+
+
+    .s2-image2{
+        width:600px;
+        height:300px;
+    }
+
+
+}
+
+
+@media (max-width:768px){
     footer{
         display: flex;
         flex-direction: row;
@@ -223,6 +316,101 @@ footer div>p{
     font-size:1.3rem;
     margin:10px 0;
 }
+
+
+
+    .section2{
+    background-color: aqua;
+    padding:10px 10px;
+    color:white;
+
+    }
+    .section1 div p:first-child{
+    
+    font-size:1.6rem;
+    margin:10px 10px;
+    border:3px solid red;
+    padding:10px;
+    
+
+    }
+    .section1 div p:last-child{
+    
+    margin:10px 10px;
+    line-height: 30px;
+    font-style: italic;
+        
+
+    }
+
+
+
+    .callout{
+        font-size:1.5rem;
+        width:400px;
+        padding:10px 0;
+    
+        /* background-color: black; */
+
+    }
+
+
+    .callout p{
+        color:black;
+        font-size:0.8rem;
+    
+
+    }
+
+    .mission-box{
+        height:300px;
+        padding:30px;
+        
+
+    }
+    .mission-box p{
+        font-size: 2.2rem;
+        padding:5px 0;
+    }
+    .mission-box >div{
+        font-size:0.95rem;
+    }
+
+
+
+    .s2-image{
+    height:300px;
+        
+    }
+
+
+    .s2-image2{
+
+        height:300px;
+    }
+
+
+}
+
+
+
+@media (max-width:375px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding:10px;
+        
+    }
+
+    footer div>p{
+        font-size:1.3rem;
+        margin:10px 0;
+    }
+
+    .donation li{
+        text-decoration:none;
+        
+    }
 
 
 
@@ -276,11 +464,11 @@ footer div>p{
 
     }
     .mission-box p{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding:5px 0;
     }
     .mission-box >div{
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
 
 
@@ -299,18 +487,4 @@ footer div>p{
 
 
 
-    /* .a{
-    display:grid;
-    grid-template-rows: 1fr 1fr;
-    background-color: black;
-    gap:10px;
-    
-    }
-    .b{
-        display:grid;
-        grid-template-rows: 1fr 1fr;
-        background-color: rgb(5, 2, 0);
-        gap:10px;
-        
-    } */
 }
